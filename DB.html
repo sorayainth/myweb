@@ -1,0 +1,60 @@
+-- phpMyAdmin SQL Dump
+-- version 4.4.10
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost:8889
+-- Generation Time: Jul 02, 2016 at 05:12 AM
+-- Server version: 5.5.42
+-- PHP Version: 5.6.10
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+--
+-- Database: `DB_learning`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `data_student`
+--
+
+CREATE TABLE `data_student` (
+  `ID` int(9) NOT NULL,
+  `Name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `Surname` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `Status` int(1) NOT NULL,
+  `I_style` int(1) NOT NULL,
+  `Point` int(4) NOT NULL,
+  `Exam1` int(4) NOT NULL,
+  `Exam2` int(4) NOT NULL,
+  `Exam3` int(4) NOT NULL,
+  `Sum_exam` int(4) NOT NULL,
+  `Total_exam` int(4) NOT NULL,
+  `Final_exam` int(4) NOT NULL,
+  `Total_Mark` int(4) NOT NULL,
+  `Grade` varchar(1) COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Dumping data for table `data_student`
+--
+
+INSERT INTO `data_student` (`ID`, `Name`, `Surname`, `Status`, `I_style`, `Point`, `Exam1`, `Exam2`, `Exam3`, `Sum_exam`, `Total_exam`, `Final_exam`, `Total_Mark`, `Grade`) VALUES
+(5712301, 'Own', 'Own', 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, ''),
+(5712302, 'Yaya', 'Urasaya', 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, ''),
+(5712303, 'Nadate', 'Kukimiya', 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, ''),
+(5712304, 'Phetchara', 'Chawwarj', 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, ''),
+(5712305, 'Mit', 'Chaibancha', 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, ''),
+(5712306, 'Baiteay', 'arsayam', 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, '');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `data_student`
+--
+ALTER TABLE `data_student`
+  ADD PRIMARY KEY (`ID`);
