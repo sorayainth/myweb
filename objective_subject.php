@@ -3,29 +3,14 @@
   <head>
     <meta charset="UTF-8">
     <title></title>
-<style>
-body {
-	margin-left: 0px;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	color: #D6D6D6;
-	background-image: url(img/bg.jpg);
-	background-repeat: no-repeat;
-}
-.text {
-	color: #000;
-}
-.btn {
-	
-}
-</style>
+      <link href='https://fonts.googleapis.com/css?family=Kanit&subset=thai,latin' rel='stylesheet' type='text/css'>
+     <link rel="stylesheet" href="style.css" type="text/css">
 
   </head>
-  <body>
+  <body class="bg">
 
         <h1 align="center" class="text">จุดประสงค์รายวิชา</h1>
-        <p><a href="objective_lesson2.php" class="btn">Next</a></p>
+        <p align="center"><a href="objective_lesson2.php" class="btn btn-default">Next</a></p>
 
 </body>
 </html>
