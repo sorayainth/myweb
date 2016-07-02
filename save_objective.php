@@ -22,15 +22,15 @@ if ($_POST["l2"] == 1) {
 
 
 if($a>$b){
-	if($a>$c){
-		$_SESSION[l_style]==1;
-		header("Location: learning_style1.php");
-		exit;
-	}else{
-		$_SESSION[l_style]==3;
-		header("Location: learning_style3.php");
-		exit;
-	}
+  	if($a>$c){
+  		$_SESSION[l_style]==1;
+  		header("Location: learning_style1.php");
+  		exit;
+  	}else{
+  		$_SESSION[l_style]==3;
+  		header("Location: learning_style3.php");
+  		exit;
+  	}
 }elseif($b>$c){
 		$_SESSION[l_style]==2;
 		header("Location: learning_style2.php");
@@ -41,7 +41,7 @@ if($a>$b){
 		exit;
 }
 session_write_close();
-}
+
 
 
 ?>

@@ -84,7 +84,7 @@
     <tr>
       <td align="right" valign="top">&nbsp;</td>
       <td colspan="2" align="left" valign="top">
-        <input name="save" type="submit" class="btn"  value="บันทึก">
+        <input name="save" type="submit" class="btn"  value="ตรวจสอบ learning style">
       </td>
     </tr>
     <tr>
