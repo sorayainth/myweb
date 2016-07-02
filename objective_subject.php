@@ -10,7 +10,7 @@
   <body class="bg">
 
         <h1 align="center" class="text">จุดประสงค์รายวิชา</h1>
-        <p align="center"><a href="objective_lesson2.php" class="btn btn-default">Next</a></p>
+        <p align="center"><a href="learning.php" class="btn btn-default">Next</a></p>
 
 </body>
 </html>

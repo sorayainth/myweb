@@ -1,6 +1,5 @@
 <?php
 session_start();
-$header =  header("Location: objective_subject.php");
 $st_id = $_POST["id"];
 $st_name = $_POST["name"];
 
