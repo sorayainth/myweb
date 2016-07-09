@@ -2,30 +2,32 @@
 session_start();
 
 
-if ($_POST["radioexam_1"] == 1) {
+if($_POST["radioexam_1"] == 1) {
 
 	$_SESSION["correct_exam1"] = 1;
 
 	header("location: exam_2.php");
 	
+}else{
 
-
-
+	$_SESSION["test_count1"] = $_SESSION["test_count1"]+1;
+	header("location: content_1_1.php");
+	
 }
 
-if ($_POST["radioexam_2"] == 2) {
+
+
+
+if($_POST["radioexam_2"] == 2) {
 	
 	$_SESSION["correct_exam1"] = $_SESSION["correct_exam1"]+1;
 
 	header("location: exam_3.php");
-
-
-
-
-
 }
 
-if ($_POST["radioexam_3"] == 3) {
+
+
+if($_POST["radioexam_3"] == 3) {
 	
 	$_SESSION["correct_exam1"] = $_SESSION["correct_exam1"]+1;
 
@@ -36,7 +38,7 @@ if ($_POST["radioexam_3"] == 3) {
 
 
 }
-if ($_POST["radioexam_4"] == 1) {
+if($_POST["radioexam_4"] == 1) {
 	
 	$_SESSION["correct_exam1"] = $_SESSION["correct_exam1"]+1;
 
@@ -47,7 +49,7 @@ if ($_POST["radioexam_4"] == 1) {
 
 
 }
-if ($_POST["radioexam_5"] == 2) {
+if($_POST["radioexam_5"] == 2) {
 	
 	$_SESSION["correct_exam1"] = $_SESSION["correct_exam1"]+1;
 
@@ -58,7 +60,7 @@ if ($_POST["radioexam_5"] == 2) {
 
 
 }
-if ($_POST["radioexam_6"] == 3) {
+if($_POST["radioexam_6"] == 3) {
 	
 	$_SESSION["correct_exam1"] = $_SESSION["correct_exam1"]+1;
 
@@ -68,7 +70,7 @@ if ($_POST["radioexam_6"] == 3) {
 
 
 }
-if ($_POST["radioexam_7"] == 1) {
+if($_POST["radioexam_7"] == 1) {
 	
 	$_SESSION["correct_exam1"] = $_SESSION["correct_exam1"]+1;
 
@@ -79,7 +81,7 @@ if ($_POST["radioexam_7"] == 1) {
 
 
 }
-if ($_POST["radioexam_8"] == 2) {
+if($_POST["radioexam_8"] == 2) {
 	
 	$_SESSION["correct_exam1"] = $_SESSION["correct_exam1"]+1;
 
@@ -89,7 +91,7 @@ if ($_POST["radioexam_8"] == 2) {
 
 
 }
-if ($_POST["radioexam_9"] == 3) {
+if($_POST["radioexam_9"] == 3) {
 	
 	$_SESSION["correct_exam1"] = $_SESSION["correct_exam1"]+1;
 
@@ -99,7 +101,7 @@ if ($_POST["radioexam_9"] == 3) {
 
 
 }
-if ($_POST["radioexam_10"] == 1) {
+if($_POST["radioexam_10"] == 1) {
 	
 	//$_SESSION["correct_exam1"] = 1;
 

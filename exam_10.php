@@ -47,7 +47,7 @@ session_start();
     <tr>
       <td></td>
       <td colspan="10">&nbsp;</td>
-      <td><input type="submit" name="button" id="button" value="Next"  class="btn btn-primary"/></td>
+      <td><input type="submit" name="button" id="button" value="ส่งคำตอบ"  class="btn btn-primary"/></td>
     </tr>
   </table>
 </form>

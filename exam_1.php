@@ -1,6 +1,7 @@
 <?php 
 session_start();
 $_SESSION["correct_exam1"] = 0;
+$_SESSION["test_count1"] = 0;
 session_write_close();
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -21,25 +22,25 @@ session_write_close();
   </tr>
   <tr>
     <td></td>
-    <td colspan="10"> <input type="radio" name="radioexam_1" id="radioexam_1_1"  value="1" />
+    <td colspan="10"> <input type="radio" name="radioexam_1" id="radioexam_1"  value="1"/>
     ก.    มารี   กูรี                 </td>
     <td></td>
   </tr>
   <tr>
     <td></td>
-    <td colspan="10"><input type="radio" name="radioexam_1" id="radioexam_1_2" value="2" />
+    <td colspan="10"><input type="radio" name="radioexam_1" id="radioexam_1" value="2"/>
     ข.      ปีแอร์ กูรี               </td>
     <td></td>
   </tr>
   <tr>
     <td></td>
-    <td colspan="10"><input type="radio" name="radioexam_1" id="radioexam_1_3" value="3" />
+    <td colspan="10"><input type="radio" name="radioexam_1" id="radioexam_1" value="3"/>
     ค.     แบ็กเกอเรล            </td>
     <td></td>
   </tr>
   <tr>
     <td></td>
-    <td colspan="10"><input type="radio" name="radioexam_1"  id="radioexam_1_4" value="4" />
+    <td colspan="10"><input type="radio" name="radioexam_1"  id="radioexam_1" value="4"/>
     ง.     แชดวิก                  </td>
     <td></td>
   </tr>
