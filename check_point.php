@@ -6,7 +6,7 @@ if($_POST["radioexam_1"] == 1) {
 
 	if($_SESSION["test_count1"] == 0) {
 
-		$_SESSION["correct_exam1"] = 2;
+		$_SESSION["correct_exam1"] = 1;
 		header("location: exam_2.php");
 
 	}elseif($_SESSION["test_count1"] == 1){
@@ -18,7 +18,7 @@ if($_POST["radioexam_1"] == 1) {
 	
 }else{
 
-	if($_SESSION["test_count1"] == 2){
+	if($_SESSION["test_count1"] == 1){
 		header("location: exam_2.php");
 	}else{
 
