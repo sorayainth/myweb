@@ -1,6 +1,8 @@
 <html>
 <body>
   <header>
+      <link href='https://fonts.googleapis.com/css?family=Kanit&subset=thai,latin' rel='stylesheet' type='text/css'>
+     <link rel="stylesheet" href="style.css" type="text/css">
   </header>
   <!-- <h1 align="center">HELLO</h1> -->
   <div align="center">
