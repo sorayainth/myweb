@@ -8,7 +8,7 @@
 
 <body>
 <form id="form1" name="form1" method="post" action="">
-<table cellspacing="0" cellpadding="0">
+<table cellspacing="0" cellpadding="0" class="table">
   <col width="87" span="12" />
   <tr>
     <td align="right" width="87">&nbsp;</td>
@@ -36,9 +36,13 @@
   <tr>
     <td></td>
     <td colspan="10"><input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_4" />
-    ง.     รังสีที่เกิดจากการเปลี่ยนวงโคจรของอิเล็กตรอน           
-    <input type="submit" name="button" id="button" value="Next"  class="btn btn-primary"/></td>
+    ง.     รังสีที่เกิดจากการเปลี่ยนวงโคจรของอิเล็กตรอน               </td>
     <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td colspan="10">&nbsp;</td>
+    <td><input type="submit" name="button" id="button" value="Next"  class="btn btn-primary"/></td>
   </tr>
 </table>
 </form>

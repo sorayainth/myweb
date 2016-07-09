@@ -1,3 +1,9 @@
+
+<?php 
+session_start();
+$_SESSION["exam_1"] = 0;
+session_write_close();
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -7,7 +13,7 @@
 </head>
 
 <body>
-<form id="form1" name="form1" method="post" action="">
+<form id="form1" name="form1" method="post" action="check_point.php">
 <table align="center" cellpadding="0" cellspacing="0" class="table">
   <col width="87" span="12" />
   <tr>
@@ -16,25 +22,25 @@
   </tr>
   <tr>
     <td></td>
-    <td colspan="10"> <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_1" />
+    <td colspan="10"> <input type="radio" name="RadioGroup1" id="RadioGroup1_1"  value="1" />
     ก.    มารี   กูรี                 </td>
     <td></td>
   </tr>
   <tr>
     <td></td>
-    <td colspan="10"><input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_2" />
+    <td colspan="10"><input type="radio" name="RadioGroup1" id="RadioGroup1_2" value="2" />
     ข.      ปีแอร์ กูรี               </td>
     <td></td>
   </tr>
   <tr>
     <td></td>
-    <td colspan="10"><input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_3" />
+    <td colspan="10"><input type="radio" name="RadioGroup1" id="RadioGroup1_3" value="3" />
     ค.     แบ็กเกอเรล            </td>
     <td></td>
   </tr>
   <tr>
     <td></td>
-    <td colspan="10"><input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_4" />
+    <td colspan="10"><input type="radio" name="RadioGroup1"  id="RadioGroup1_4" value="4" />
     ง.     แชดวิก                  </td>
     <td></td>
   </tr>
