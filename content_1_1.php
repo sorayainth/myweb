@@ -1,10 +1,11 @@
 <?php 
 session_start();
-
+echo $_SESSION["test_count1"];
 ?>
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8">
 	<title></title>
 	 <link href="css/bootstrap.min.css" rel="stylesheet">
 </head>

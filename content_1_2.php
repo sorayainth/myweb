@@ -3,9 +3,6 @@ session_start();
 if ($_SESSION["test_count1"] == 1) {
 	header("location: exam_1.php");
 	exit();
-}elseif($_SESSION["test_count1"] == 2){
-	header("location: exam_2.php");
-	exit();
 }
 session_write_close();
 
@@ -13,6 +10,7 @@ session_write_close();
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8">
 	<title></title>
 	 <link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
