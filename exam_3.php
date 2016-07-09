@@ -1,7 +1,7 @@
 <?php 
 session_start();
-// $_SESSION["correct_exam1"] = 0;
-// session_write_close();
+$_SESSION["test_count3"];
+session_write_close();
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -42,7 +42,9 @@ session_start();
   <tr>
     <td></td>
     <td colspan="10"><input type="radio" name="radioexam_3" value="4" id="radioexam_3_4" />
-    ง.     รังสีธาตุ                                             </td>
+    ง.     รังสีธาตุ     
+                                            </td>
+        <input type="hidden" name="exam" value="3">
     <td><input type="submit" name="button" id="button" value="Next"  class="btn btn-primary"/></td>
   </tr>
 </table>

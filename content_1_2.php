@@ -1,6 +1,7 @@
 <?php 
 session_start();
-if ($_SESSION["test_count1"] == 1) {
+
+if ($_SESSION["test_count1"] <= 0) {
 	header("location: exam_1.php");
 	exit();
 }
@@ -26,7 +27,7 @@ session_write_close();
 
 </p>
 <div align="center">
-<a href="content_1_3.php" class="btn btn-primary">Next</a>
+<a href="exam_2.php" class="btn btn-primary">Next</a>
 </div>
 </div>
 <div class="col-lg-3">

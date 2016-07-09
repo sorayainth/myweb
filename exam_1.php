@@ -47,7 +47,8 @@ session_write_close();
   <tr>
     <td></td>
     <td colspan="10">&nbsp;</td>
-    <td><input type="submit" name="button" id="button" value="Next"  class="btn btn-primary"/></td>
+    <input type="hidden" name="exam" value="1">
+    <td><input type="submit" name="submit" id="button" value="Next"  class="btn btn-primary"/></td>
   </tr>
 </table>
 </form>

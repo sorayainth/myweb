@@ -1,6 +1,17 @@
+<?php 
+session_start();
+
+if ($_SESSION["test_count2"] <= 0) {
+	header("location: exam_2.php");
+	exit();
+}
+session_write_close();
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8">
 	<title></title>
 	 <link href="css/bootstrap.min.css" rel="stylesheet">
 </head>

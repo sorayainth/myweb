@@ -1,3 +1,13 @@
+<?php 
+session_start();
+
+if ($_SESSION["test_count3"] <= 0) {
+	header("location: exam_3.php");
+	exit();
+}
+session_write_close();
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
